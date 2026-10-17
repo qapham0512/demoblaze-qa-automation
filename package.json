@@ -1,0 +1,5 @@
+{
+  "name": "demoblaze-qa-challenge", "version": "1.0.0", "private": true,
+  "scripts": {"test":"playwright test", "test:smoke":"playwright test --grep @smoke", "test:regression":"playwright test --grep @regression", "test:api":"playwright test tests/api", "test:performance":"playwright test tests/performance", "test:chromium":"playwright test --project=chromium", "test:headed":"playwright test --headed --project=chromium", "report":"playwright show-report", "typecheck":"tsc --noEmit"},
+  "devDependencies":{"@playwright/test":"^1.56.1", "typescript":"^5.9.3", "@types/node":"^22.15.0", "dotenv":"^17.2.3"}
+}
