@@ -52,6 +52,16 @@ Test_Cases_DemoBlaze.xlsx     # manual suite and execution status
 
 Built-in HTML, JUnit XML, list output; traces/screenshots/videos retained on failed runs. HTML: `playwright-report/index.html`; JUnit: `test-results/junit.xml`. GitHub Actions installs browsers/dependencies, typechecks, runs tests, uploads reports after failures. For GitLab/Jenkins use `npm install && npx playwright install --with-deps && npm test`; ingest the JUnit path.
 
+## CI Execution Evidence
+
+The Playwright automation framework was successfully executed through GitHub Actions.
+Workflow: Playwright E2E
+Result: Success
+Duration: 2 minutes 1 second
+Workflow run: https://github.com/qapham0512/demoblaze-qa-automation/actions/runs/39022697097
+The workflow installs project dependencies and Playwright browsers, performs TypeScript type checking, executes the automated tests, and uploads the Playwright report as an artifact.
+Note: This result applies to the specific commit associated with the linked workflow run. Subsequent changes require a new CI execution to verify their status.
+
 ## Manual test suite
 
 Workbook includes Login and Cart/Checkout test cases (positive, negative, boundary/edge), priority, preconditions, steps, expected behavior, automation candidates, and `Not Run` default status. **Expected behavior is an intended quality requirement, not evidence that DemoBlaze currently implements it** (notably validation of card formats, empty-cart checkout, and duplicate items). Verify the application's actual behavior and report defects as appropriate; do not mark such cases Pass without execution.
