@@ -55,11 +55,11 @@ Built-in HTML, JUnit XML, list output; traces/screenshots/videos retained on fai
 ## CI Execution Evidence
 
 The Playwright automation framework was successfully executed through GitHub Actions.
-Workflow: Playwright E2E
-Result: Success
-Duration: 2 minutes 1 second
-Workflow run: https://github.com/qapham0512/demoblaze-qa-automation/actions/runs/39022697097
-The workflow installs project dependencies and Playwright browsers, performs TypeScript type checking, executes the automated tests, and uploads the Playwright report as an artifact.
+- Workflow: Playwright E2E
+- Result: Success
+- Duration: 2 minutes 1 second
+- Workflow run: https://github.com/qapham0512/demoblaze-qa-automation/actions/runs/39022697097
+- The workflow installs project dependencies and Playwright browsers, performs TypeScript type checking, executes the automated tests, and uploads the Playwright report as an artifact.
 Note: This result applies to the specific commit associated with the linked workflow run. Subsequent changes require a new CI execution to verify their status.
 
 ## Manual test suite
